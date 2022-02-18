@@ -1,6 +1,6 @@
 // tady je místo pro náš program
 
-document.querySelector("#vysledek").innerHTML = secti(4, 5);
+//document.querySelector("#vysledek").innerHTML = secti(4, 5);
 
 /**
  * Sečte dvě čísla na vstupu a vrátí výsledek
@@ -10,8 +10,13 @@ document.querySelector("#vysledek").innerHTML = secti(4, 5);
  */
 function secti(a, b) {
   let c = a + b;
-  return c;
+  return c
 }
+
+function secti2() {
+  document.querySelector("#vysledek").innerHTML = secti(4, 5);
+}
+
 
 /**
  * Upozorní uživatele při spuštění.
@@ -23,5 +28,8 @@ function upozorni() {
 let ctverec = document.querySelector(".ctverecek")
 function zmenBarvu() {
   ctverec.style.backgroundColor = "green";
-
 }
+
+
+
+
