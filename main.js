@@ -19,3 +19,9 @@ function secti(a, b) {
 function upozorni() {
   alert("Gratulace, právě jsi spustila tuto funkci!");
 }
+
+let ctverec = document.querySelector(".ctverecek")
+function zmenBarvu() {
+  ctverec.style.backgroundColor = "green";
+
+}
